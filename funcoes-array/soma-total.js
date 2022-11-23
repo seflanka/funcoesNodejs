@@ -1,4 +1,3 @@
-
 //Aqui é onde damos o .length no array para saber o total
 const quantidadeDoLength = 10;
 
@@ -12,7 +11,9 @@ for ( var x = 0; x <= quantidadeDoLength; x++) {
 };
 
 //Usa o metodo reduce((a,b) => a + b), para somar os valores dentro do array.
-const somaTotal = arrayLength.reduce((a, b) => a+ b ).toFixed([2]);
+const somaTotal = arrayLength.reduce((a, b) => a + b ).toFixed([2]);
+
+
 
 console.log(somaTotal);
 
