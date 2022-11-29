@@ -16,3 +16,5 @@ const somaTotal = arrayLength.reduce((a , b) => a+ b ).toFixed([2]);
 
 console.log(somaTotal);
 
+
+
