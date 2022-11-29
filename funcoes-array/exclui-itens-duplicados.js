@@ -9,12 +9,13 @@ const arr = ['Fernanda', 'Guilherme', 'Daniele', 'Guilherme', 'Marcos', 'Daniele
         const newArray = []
 
         if(arr.indexOf(arr[i]) == i) {
-            newArray.unshift(arr[i] )
+            
+            if ( arr[i].length >= 0 ) {
+                newArray.unshift(arr[i])
+            }
         };
 
         console.log(newArray)
     }
-    // Se não houver repetido
-    // retornamos false
-    return console.log(false);
+
 
